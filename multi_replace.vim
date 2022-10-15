@@ -223,18 +223,13 @@ if !exists('g:multi_replace_mappings')
 endif
 
 if g:multi_replace_mappings
-  nmap c.c <Plug>MultiReplace
-  xmap c.c <Plug>MultiReplaceVisual
-  nmap c.C <Plug>ReplaceAll
-  xmap c.C <Plug>ReplaceAllVisual
+  nmap gx <Plug>MultiReplace
+  xmap gx <Plug>MultiReplaceVisual
+  nmap gX <Plug>ReplaceAll
+  xmap gX <Plug>ReplaceAllVisual
 
-  nmap c.i <Plug>MultiInsert
-  xmap c.i <Plug>MultiInsertVisual
-  nmap c.I <Plug>InsertAll
-  xmap c.I <Plug>InsertAllVisual
-
-  nmap c.a <Plug>MultiAppend
-  xmap c.a <Plug>MultiAppendVisual
-  nmap c.A <Plug>AppendAll
-  xmap c.A <Plug>AppendAllVisual
+  nmap ga <Plug>MultiAppend
+  xmap ga <Plug>MultiAppendVisual
+  nmap gA <Plug>AppendAll
+  xmap gA <Plug>AppendAllVisual
 end
